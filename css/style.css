@@ -3,9 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: darkmagenta;
+}
 .container {
     display: flex;
-    background-color: darkmagenta;
     width: auto;
     height: 900px;
     justify-content: center;
@@ -14,8 +16,8 @@
 }
 input, button {
     display: grid;
-    grid-template-rows:50px 50px 50px ;
-    grid-template-columns: 50px;
+    grid-template-rows:7px ;
+    grid-template-columns: 7px;
     margin: 0px;
     padding: 10px;
     border: solid 1px;
@@ -24,10 +26,11 @@ input, button {
    height: 50px;
 }
 
-#row{
-    display: flex;
-   
-
-    
-
+.row{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display: block;
 }
