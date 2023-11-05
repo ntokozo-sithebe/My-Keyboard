@@ -5,14 +5,17 @@
 }
 body{
     background-color: darkmagenta;
+    border: 10px solid white;
+    padding: 10px;
 }
 .container {
     display: flex;
     width: auto;
-    height: 900px;
     justify-content: center;
     align-items: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+
 }
 input, button {
     display: grid;
@@ -27,10 +30,10 @@ input, button {
 }
 
 .row{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.col{
-    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+   
 }
