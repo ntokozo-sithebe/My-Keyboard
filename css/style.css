@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: darkmagenta;
+    background-color: rgba(189, 64, 189, 0.649);
     border: 10px solid white;
     padding: 10px;
+    margin: 100px;
+   
+
 }
 .container {
     display: flex;
@@ -15,6 +18,7 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+
 
 }
 input, button {
@@ -35,5 +39,14 @@ input, button {
     align-items: center;
     margin-top: 10px;
     margin-left: 10px;
-   
+    padding: 10px;
+  
+}
+
+input {
+    font-size: xx-small;
+    font-weight: bold;
+    margin: 3px;
+    color: black;
+    background-color: blanchedalmond;
 }
